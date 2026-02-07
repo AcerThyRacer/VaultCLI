@@ -1,0 +1,30 @@
+{
+  "name": "vaultsecure-cli",
+  "version": "1.0.0",
+  "description": "A maximum-security password vault CLI with ASCII art and animations",
+  "main": "bin/vault.js",
+  "bin": {
+    "vault": "./bin/vault.js"
+  },
+  "scripts": {
+    "start": "node bin/vault.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "vault",
+    "password",
+    "cli",
+    "security",
+    "encryption"
+  ],
+  "author": "VaultSecure",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "clipboardy": "^2.3.0",
+    "inquirer": "^8.2.6",
+    "nanoid": "^3.3.7",
+    "ora": "^5.4.1"
+  }
+}
